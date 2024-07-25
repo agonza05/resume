@@ -111,7 +111,7 @@ cv:
       - label: Programming
         details: Python, JavaScript, Go, VBasic
       - label: Complex Infrastructures
-        details: On-prem DC, User VPN, Load Balancer, Forward Proxy, Switching Fabric, Authentication Services, Multiple Internet Connections, URL filtering, RBAC, SSL Decryption
+        details: On-Prem DC, User VPN, Load Balancer, Forward Proxy, Switching Fabric, Threat Prevention, Egress Redundancy, URL filtering, RBAC, SSL Decryption, Web Application FW, Cloud Infrastructure
       - label: Multi-vendor Environment
         details: Cisco, Palo Alto, F5, Meraki, Arista, VMware, Azure, GCP, AWS, Nvidia, Dell, Nutanix
 design:
