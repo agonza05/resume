@@ -1,0 +1,15 @@
+((* if not is_first_entry *))
+\vspace{<<design.margins.entry_area.vertical_between>>}
+((* endif *))
+
+((* for item in entry *))
+    ((* if loop.first *))
+\begin{onecolentry}
+    \begin{highlights}
+    ((* endif *))
+        \item \textbf{<<entry.label>>:} <<entry.details>>
+    ((* if loop.last *))
+    \end{highlights}
+\end{onecolentry}
+    ((* endif *))
+((* endfor *))

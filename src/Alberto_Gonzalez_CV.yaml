@@ -1,5 +1,5 @@
 cv:
-  name: Alberto Gonzalez
+  name: Alberto Jose Gonzalez Escalante
   location: Wolfratshausen (by Munich), Germany
   email: gonzalez.alberto@outlook.com
   phone: tel:+4915162979569
@@ -9,15 +9,17 @@ cv:
       username: agonza05
     - network: GitHub
       username: agonza05
+  intro: Cloud Network Engineer with experience designing and managing multi-vendor environments, architecting and provisioning cloud platform services and providing technical support to data center and corporate infrastructure
   sections:
-    summary:
-      - Cloud Network Engineer with experience designing and managing multi-vendor environments, architecting and provisioning cloud platform services and providing technical support to data center and corporate infrastructure
+    # summary:
+    #   - Cloud Network Engineer with experience designing and managing multi-vendor environments, architecting and provisioning cloud platform services and providing technical support to data center and corporate infrastructure
     experience:
-      - company: appliedAI Initiative GmbH
+      - company: appliedAI Initiative
         position: Network and DevOps Engineer
         location: Munich, Germany
         start_date: 2022-07
         end_date: present
+        description: Responsible for managing the organization’s on-prem and cloud IT infrastructure, leading the development and implementation of IT solutions, technologies and architectures, and providing technical expertise on information security practices
         highlights:
           - Maintaining and enhancing the IT infrastructure and infrastructure services
           - Provisioning, installing and configuring infrastructure components and hardware
@@ -29,42 +31,93 @@ cv:
           - Creating scripts and code to automate the provisioning, testing and deployment of new and changed infrastructure
           - Selecting, adopting and adapting information security control frameworks
           - Providing expertise, guidance and advise on information security controls
-      - company: Microsoft
-        position: Software Engineer Intern
-        location: Redmond, WA
-        start_date: 2003-06
-        end_date: 2003-08
+      - company: Getnet / PagoNxt Merchant Solutions
+        position: Network Administrator
+        location: Munich, Germany
+        start_date: 2018-09
+        end_date: 2022-07
+        description: Responsible for managing and operating the network infrastructure, solving problems and faults to ensure defined service levels and monitoring network performance and security
         highlights:
-          - Designed a UI for the VS open file switcher (Ctrl-Tab)
-            and extended it to tool windows
-          - Created a service to provide gradient across VS and
-            VS add-ins, optimizing its performance via caching
-          - Built an app to compute the similarity of all methods
-            in a codebase, reducing the time from $\mathcal{O}(n^2)$
-            to $\mathcal{O}(n \log n)$
-          - Created a test case generation tool that creates random
-            XML docs from XML Schema
-          - Automated the extraction and processing of large datasets
-            from legacy systems using SQL and Perl scripts
+          - Providing technical information about the network infrastructure in scope
+          - Applying standard change requests according to agreed procedures
+          - Developing, documenting and implementing changes based on requests for change, following agreed change control procedures
+          - Investigating, identifying and resolving network problems and assisting with the implementation of preventative measures
+          - Creating and maintaining network plans for own area of responsibility
+          - Producing configuration templates, topologies and design documentation of networking technologies within the organization
+          - Drafting and maintaining procedures and work instructions for network support
+          - Detecting and diagnosing network problems using network management tools
+          - Making general or site-specific modifications to network equipment
+          - Building and executing pipeline jobs to deploy infrastructure as a code
+      - company: IBM Services
+        position: Network Support Specialist
+        location: Brno, Czech Republic
+        start_date: 2016-06
+        end_date: 2018-07
+        description: Responsible for the provision of network maintenance and support services, to both users of the systems and to service delivery functions
+        highlights:
+          - Investigating, identifying and resolving network problems and assisting with the implementation of preventative measures
+          - Carrying out agreed operational procedures, including network configuration, installation and maintenance
+          - Collecting and reporting on network load and performance statistics
+          - Maintaining the network support process and checking that all assigned requests for support are dealt with according to agreed procedures
+          - Detecting and diagnosing network problems using network management software and tools, working with users, other staff and suppliers as appropriate
+          - Providing technical information about the systems
+          - Making general or site-specific modifications to network equipment
+          - Prioritizing and diagnosing incidents according to agreed procedures
+          - Documenting and closing resolved incidents and escalating unresolved incidents
+          - Applying techniques and processes to track, log, report on and correct configuration items, components and changes
+          - Developing, documenting and implementing changes based on requests for change, following agreed change control procedures
+      - company: Modern Educational Centre
+        position: Systems and Network Administrator
+        location: Dublin, Ireland
+        start_date: 2013-01
+        end_date: 2015-04
+        description: Responsible for maintaining and ensuring smooth operation of systems and IT equipment over different campuses
     education:
-      - institution: University of Pennsylvania
-        area: Computer Science
-        degree: BS
-        start_date: 2000-09
-        end_date: 2005-05
-        highlights:
-          - 'GPA: 3.9/4.0 ([a link to somewhere](https://example.com))'
-          - '**Coursework:** Computer Architecture, Comparison
-            of Learning Algorithms, Computational Theory'
-    technologies:
-      - label: Languages
-        details: C++, C, Java, Objective-C, C#, SQL, JavaScript
-      - label: Technologies
-        details: .NET, Microsoft SQL Server, XCode, Interface
-          Builder
+      - institution: '"Catolica Andres Bello" University'
+        area: Telecommunications Engineering
+        degree: BEng
+        end_date: 2009-01
+    qualifications:
+      - bullet: '**Google Professional Cloud Network Engineer**: August 2023 - Google Cloud Platform'
+      - bullet: '**Aviatrix Certified Engineer**: November 2022 (24 hours) - Aviatrix'
+      - bullet: '**Aviatrix Multi-Cloud Networking and Security**: June 2020 (24 hours) - Aviatrix'
+      - bullet: '**Configuring Cisco Nexus 9000 SWs in ACI mode (DCAC9K)**: May 2019 (40 hours) - Fast Lane Institute'
+      - bullet: '**Getting Started with F5 BIG-IP LTM**: November 2018 (12 hours) - F5 University'
+      - bullet: '**Palo Alto Firewall Essentials**: October 2018 (14 hours) - Palo Alto Networks'
+      - bullet: '**VMware NSX Essentials**: July 2017 (40 hours) - IBM'
+      - bullet: '**ITIL v3 Foundation**: September 2016 - Axelos'
+      - bullet: '**Cisco Certified Network Administrator Routing and Switching**: November 2015 - Cisco Systems'
+    skills_and_knowledge:
+      - label: Network Security
+        details: Palo Alto Panorama, Palo Alto Firewalls, Cisco ASA, Cisco ISE, Radius, Cisco Umbrella, Cisco AnyConnect, Pulse Secure
+      - label: Application Delivery
+        details: F5 LTM Load Balancer, F5 DNS Global Traffic Manager, F5 ASM Web Application Firewall
+      - label: Network Infrastructure
+        details: Cisco Switches Catalyst and Nexus, Cisco ASR routers, Cisco ACI Switches, Cisco ACI APICs, Cisco ACI MSO
+      - label: Wireless
+        details: Meraki Access Points
+      - label: IPAM
+        details: NetBox, Infoblox
+      - label: Network Management
+        details: ExtraHop, Nagios, CheckMK, Zabbix
+      - label: Cloud Service Provider
+        details: AWS, Azure, GCP
+      - label: Virtualization
+        details: VMware, QEMU / KVM
+      - label: DevOps
+        details: GitLab, Terraform, Ansible, Crossplane, Jenkins, Infrastructure as Code
+      - label: Networking technologies
+        details: OSPF, EIGRP, STP, LACP, CDP, VTP, NAT, DHCP, SNMP, FHRP, ACL, IPSec, vPC, BGP, SSL VPN, WAF
+      - label: Programming
+        details: Python, JavaScript, Go, VBasic
+      - label: Complex Infrastructures
+        details: Catalyst, NGFW, Load Balancer, Nexus, ACI, WLC, ISE, ASR, FEX, Proxy, URL filtering, RBAC, Multi-cloud
+      - label: Multi-vendor Environment
+        details: Cisco, Palo Alto, F5, Meraki, Arista, VMware, Azure, GCP, AWS
 design:
-  theme: engineeringresumes
+  theme: agonza
   font: Latin Modern Sans Serif
+  # font: Source Sans 3
   font_size: 10pt
   page_size: a4paper
   color: '#004f90'
@@ -79,10 +132,10 @@ design:
   use_icons_for_connections: true
   margins:
     page:
-      top: 2 cm
-      bottom: 2 cm
-      left: 2 cm
-      right: 2 cm
+      top: 1.3 cm
+      bottom: 1.3 cm
+      left: 1.3 cm
+      right: 1.3 cm
     section_title:
       top: 0.3 cm
       bottom: 0.2 cm
@@ -90,7 +143,7 @@ design:
       left_and_right: 0.2 cm
       vertical_between: 0.2 cm
       date_and_location_width: 4.5 cm
-      # education_degree_width: 1 cm
+      education_degree_width: 1 cm
     highlights_area:
       top: 0.10 cm
       left: 0.4 cm
@@ -99,7 +152,7 @@ design:
       vertical_between_name_and_connections: 0.3 cm
       bottom: 0.3 cm
       horizontal_between_connections: 0.5 cm
-  # show_timespan_in: []
+  show_timespan_in: []
 locale_catalog:
   phone_number_format: international
-  date_style: "FULL_MONTH_NAME YEAR"
+  # date_style: "FULL_MONTH_NAME YEAR"
