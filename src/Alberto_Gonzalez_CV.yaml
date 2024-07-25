@@ -1,0 +1,105 @@
+cv:
+  name: Alberto Gonzalez
+  location: Wolfratshausen (by Munich), Germany
+  email: gonzalez.alberto@outlook.com
+  phone: tel:+4915162979569
+  website: https://agonza.net/
+  social_networks:
+    - network: LinkedIn
+      username: agonza05
+    - network: GitHub
+      username: agonza05
+  sections:
+    summary:
+      - Cloud Network Engineer with experience designing and managing multi-vendor environments, architecting and provisioning cloud platform services and providing technical support to data center and corporate infrastructure
+    experience:
+      - company: appliedAI Initiative GmbH
+        position: Network and DevOps Engineer
+        location: Munich, Germany
+        start_date: 2022-07
+        end_date: present
+        highlights:
+          - Maintaining and enhancing the IT infrastructure and infrastructure services
+          - Provisioning, installing and configuring infrastructure components and hardware
+          - Designing and conducting migration plans of IT infrastructure to cloud services
+          - Building and managing solutions and infrastructure services in on-prem and cloud environments
+          - Producing diagrams and documentation of cloud-based or on-premises components
+          - Providing technical leadership to optimize the performance of IT infrastructure
+          - Investigating and managing the adoption of tools and solutions for the management of systems and services
+          - Creating scripts and code to automate the provisioning, testing and deployment of new and changed infrastructure
+          - Selecting, adopting and adapting information security control frameworks
+          - Providing expertise, guidance and advise on information security controls
+      - company: Microsoft
+        position: Software Engineer Intern
+        location: Redmond, WA
+        start_date: 2003-06
+        end_date: 2003-08
+        highlights:
+          - Designed a UI for the VS open file switcher (Ctrl-Tab)
+            and extended it to tool windows
+          - Created a service to provide gradient across VS and
+            VS add-ins, optimizing its performance via caching
+          - Built an app to compute the similarity of all methods
+            in a codebase, reducing the time from $\mathcal{O}(n^2)$
+            to $\mathcal{O}(n \log n)$
+          - Created a test case generation tool that creates random
+            XML docs from XML Schema
+          - Automated the extraction and processing of large datasets
+            from legacy systems using SQL and Perl scripts
+    education:
+      - institution: University of Pennsylvania
+        area: Computer Science
+        degree: BS
+        start_date: 2000-09
+        end_date: 2005-05
+        highlights:
+          - 'GPA: 3.9/4.0 ([a link to somewhere](https://example.com))'
+          - '**Coursework:** Computer Architecture, Comparison
+            of Learning Algorithms, Computational Theory'
+    technologies:
+      - label: Languages
+        details: C++, C, Java, Objective-C, C#, SQL, JavaScript
+      - label: Technologies
+        details: .NET, Microsoft SQL Server, XCode, Interface
+          Builder
+design:
+  theme: engineeringresumes
+  font: Latin Modern Sans Serif
+  font_size: 10pt
+  page_size: a4paper
+  color: '#004f90'
+  disable_external_link_icons: false
+  disable_page_numbering: false
+  page_numbering_style: NAME - Page PAGE_NUMBER of TOTAL_PAGES
+  disable_last_updated_date: false
+  last_updated_date_style: Last updated in TODAY
+  header_font_size: 30 pt
+  text_alignment: justified
+  seperator_between_connections: ''
+  use_icons_for_connections: true
+  margins:
+    page:
+      top: 2 cm
+      bottom: 2 cm
+      left: 2 cm
+      right: 2 cm
+    section_title:
+      top: 0.3 cm
+      bottom: 0.2 cm
+    entry_area:
+      left_and_right: 0.2 cm
+      vertical_between: 0.2 cm
+      date_and_location_width: 4.5 cm
+      # education_degree_width: 1 cm
+    highlights_area:
+      top: 0.10 cm
+      left: 0.4 cm
+      vertical_between_bullet_points: 0.10 cm
+    header:
+      vertical_between_name_and_connections: 0.3 cm
+      bottom: 0.3 cm
+      horizontal_between_connections: 0.5 cm
+  # show_timespan_in: []
+locale_catalog:
+  phone_number_format: international
+  date_style: "FULL_MONTH_NAME YEAR"
