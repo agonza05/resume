@@ -91,5 +91,5 @@
 - DevOps: GitLab, Terraform, Ansible, Crossplane, Jenkins, Infrastructure as Code
 - Networking technologies: OSPF, EIGRP, STP, LACP, CDP, VTP, NAT, DHCP, SNMP, FHRP, ACL, IPSec, vPC, BGP, SSL VPN, WAF
 - Programming: Python, JavaScript, Go, VBasic
-- Complex Infrastructures: On-prem DC, User VPN, Load Balancer, Forward Proxy, Switching Fabric, Authentication Services, Multiple Internet Connections, URL filtering, RBAC, SSL Decryption
+- Complex Infrastructures: On-Prem DC, User VPN, Load Balancer, Forward Proxy, Switching Fabric, Threat Prevention, Egress Redundancy, URL filtering, RBAC, SSL Decryption, Web Application FW, Cloud Infrastructure
 - Multi-vendor Environment: Cisco, Palo Alto, F5, Meraki, Arista, VMware, Azure, GCP, AWS, Nvidia, Dell, Nutanix
