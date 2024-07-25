@@ -111,9 +111,9 @@ cv:
       - label: Programming
         details: Python, JavaScript, Go, VBasic
       - label: Complex Infrastructures
-        details: Catalyst, NGFW, Load Balancer, Nexus, ACI, WLC, ISE, ASR, FEX, Proxy, URL filtering, RBAC, Multi-cloud
+        details: On-prem DC, User VPN, Load Balancer, Forward Proxy, Switching Fabric, Authentication Services, Multiple Internet Connections, URL filtering, RBAC, SSL Decryption
       - label: Multi-vendor Environment
-        details: Cisco, Palo Alto, F5, Meraki, Arista, VMware, Azure, GCP, AWS
+        details: Cisco, Palo Alto, F5, Meraki, Arista, VMware, Azure, GCP, AWS, Nvidia, Dell, Nutanix
 design:
   theme: agonza
   font: Latin Modern Sans Serif
